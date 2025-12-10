@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request, 'portfolio.html')  # points to the template
+    return render(request, 'portfolio.html')
